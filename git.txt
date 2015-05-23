@@ -1,0 +1,20 @@
+-- create an initial repository
+$ git init
+
+-- add a file to  the repository
+$ git add <filename>
+
+-- a fully qualified git commit
+$ git commit -m "log message" --author="author name <author email>"
+
+-- configure git to open a editor during a git commit
+$ export GIT_EDITOR=emacs
+
+-- save identity in a configuration file using git config command
+$ git config user.name "your name"
+$ git config user.email "your_email"
+
+-- tell git your name and email address using the GIT_AUTHOR_NAME and
+   GIT_AUTHOR_EMAIL environment variables. If set, they override the
+   configuration settings
+
